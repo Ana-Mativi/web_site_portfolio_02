@@ -1,6 +1,6 @@
 body {  background-color: bisque;
 }
-h1 {color: rgb(136, 181, 0);
+h1,h2 {color: rgb(136, 181, 0);
 font-size:xx-large;
 font-family: monaco;
 }
@@ -58,6 +58,7 @@ p {
             display: flex;
             justify-content: flex-end;
           }
+          
   
     .content {display: flex;
       justify-content:center;
