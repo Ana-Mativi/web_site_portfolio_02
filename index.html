@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-<title>Homepage</title>
-</head>
-<body>
-
-<!--Seção Cabeçalho-->
-<section id="marca">
-<div class="nome">
-  <h1>ANA<br>
-    MATIVI <br>_Portfólio</h1>
-   </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <!--Seção Cabeçalho-->
+    <section id="marca">
+      <div class="nome">
+        <h1>
+          ANA<br />
+          MATIVI <br />_Portfólio
+        </h1>
+      </div>
     </section>
 
-<!--Seção NavBar-->
+    <!--Seção NavBar-->
 
-<section>
-<div>
-  <nav id="pond">
-      <ul>
-  <a href="./sobre.html"><li>Sobre</li></a>
-  <a href="./portfolio.html"><li>Portfólio</li></a>
-  <a href="./contactos.html"><li>Contactos</li></a>
-</ul>
-</nav>
-</div>
-</section>
+    <section>
+      <nav>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./sobre.html"
+              >Sobre</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactos.html">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
 
-<!--Seção slide-->
+    <!--Seção slide-->
 
-<section>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./IMG/img_slide_home_01.jpg" class="d-block w-100" alt="img_slide_home_01" width="100px">
-    </div>
+    <section>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./IMG/img_slide_home_01.jpg"
+              class="d-block w-100"
+              alt="img_slide_home_01"
+              width="100px"
+            />
+          </div>
 
-    <div class="carousel-item">
-      <img src="./IMG/img_slide_home_02.jpg" class="d-block w-100" alt="img_slide_home_02" width="100px">
-    </div>
+          <div class="carousel-item">
+            <img
+              src="./IMG/img_slide_home_02.jpg"
+              class="d-block w-100"
+              alt="img_slide_home_02"
+              width="100px"
+            />
+          </div>
 
-    <div class="carousel-item">
-      <img src="./IMG/img_slide_home_03.jpg" class="d-block w-100" alt="img_slide_home_03" width="100px">
-    </div>
+          <div class="carousel-item">
+            <img
+              src="./IMG/img_slide_home_03.jpg"
+              class="d-block w-100"
+              alt="img_slide_home_03"
+              width="100px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  </div>
-</div>
-</section>
-
-
-<!--Rodapé-->
-
-<footer>
+    <!--Rodapé-->
+    <section style="margin: 100px">
+      <footer>
         <p>2025 Ana Mativi. Todos os direitos reservados.</p>
-</footer>
-
-</body>
+      </footer>
+    </section>
+  </body>
 </html>
